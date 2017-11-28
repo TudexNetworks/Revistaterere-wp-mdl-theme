@@ -1,10 +1,23 @@
-## MDLWP - A Material Design Lite WordPress Theme
 
-MDLWP is a Material Design WordPress theme(probably the first!) that uses Sass, Gulp, Bower, and of course Material Design Lite. 
 
-[Live Demo](http://mdlwp.com/demo/)
+# Tema para Tudex Networks
+Este tema esta basado en el tema Material Design Lite WordPress Theme https://github.com/braginteractive/MDLWP en su vercion  1.2.3 y fue creado por Brad Williams http://braginteractive.com
 
-[Setup Video](https://www.youtube.com/watch?v=1wVJn-Y2-CU)
+GNU General Public License v2 o posterior
+URI de licencia: http://www.gnu.org/licenses/gpl-2.0.html
+
+Este tema, como WordPress, tiene licencia bajo la GPL.
+Úselo para hacer algo interesante, diviértase y comparta lo que ha aprendido con los demás.
+
+MDLWP se basa en Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores se distribuye bajo los términos de GNU GPL v2 o posterior.
+
+Los estilos de normalización han sido ayudados gracias al fino trabajo de
+Nicolas Gallagher y Jonathan Neal http://necolas.github.com/normalize.css/
+
+
+
+## Tudex Networks - un tema Material Design Lite para WordPress
 
 #### MDLWP Plugins
 Download free and premium plugins that add extra features and extend the functionality of MDLWP. 
@@ -23,34 +36,6 @@ Download free and premium plugins that add extra features and extend the functio
 - integrate other MDL components
 
 Do you have an idea? PRs welcome. 
-
-#### For the Nerds
-For customization, basic knowledge of the command line and the following dependencies are required to use MDLWP:
-
-- MDL ([http://www.getmdl.io/](http://www.getmdl.io/)) 
-- Node ([http://nodejs.org/](http://nodejs.org/)) -`npm install`
-- Gulp ([http://gulpjs.com/](http://gulpjs.com/)) - `npm install --global gulp`
-- Bower ([http://bower.io/](http://bower.io/)) -`npm install -g bower`
-
-#### Usage
-After you've downloaded MDLWP, and run `npm install` and `gulp` from the command line you can start using gulp.
-
-#### Gulp
-
-###### 1) Navigate to your new theme
-`cd /your-project/wordpress/wp-content/themes/your-new-theme`
-
-###### 2) Gulp tasks available:
-
-`gulp` - Automatically handle changes to CSS, javascript, php, and image optimization. Also Livereload!
-
-`gulp scripts` - Concatenate and minify javascript files
-
-`gulp sass` - Compile, prefix, and minify CSS files
-
-`gulp bower` - Install bower components
-
-`gulp zip` - Creates a zipped file in the root of the theme. Ignores the bower_components and node_modules directories.
 
 #### Contributors 
 - [Mark Constable](https://github.com/markc) - github updater
